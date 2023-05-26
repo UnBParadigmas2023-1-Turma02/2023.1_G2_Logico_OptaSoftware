@@ -15,11 +15,8 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Change to 'pages' directory
-        run: cd pages
-
       - name: Install MkDocs Material theme
         run: pip install mkdocs-material
-        
+
       - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
+        run: mkdocs gh-deploy --force --config-file pages/mkdocs.yml
