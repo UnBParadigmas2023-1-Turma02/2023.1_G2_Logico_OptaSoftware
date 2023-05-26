@@ -1,7 +1,7 @@
 site_name: OptaSoft
 
-# repo_name: '2023.1_G2_Logico_OptaSoftware'
-# repo_url: 'https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware'
+repo_name: '2023.1_G2_Logico_OptaSoftware'
+repo_url: 'https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware'
 
 theme:
   name: material
