@@ -1,3 +1,7 @@
+## Diagrama
+
+[Diagrama das Matérias](https://drive.google.com/file/d/1Qinkup-okRi-Gf8TRfw01AzFLpd-fSbK/view?usp=sharing)
+
 ## Matérias Optativas
 
 | CÓDICO  | NOME                                                        | CARGA HORARIA | PALAVRAS-CHAVES                                                                                       | SINOPSE                                                                                      |
