@@ -63,3 +63,31 @@ materia('Materiais de Construção de Engenharia', ['Energia', 'Química'], 'Ene
 materia('Gestão Ambiental no Setor Energético', ['Energia', 'Sustentabilidade'], 'Energia', 60, 'O problema ambiental e o desenvolvimento sustentável: a evolução histórica e política da questão ambiental no Brasil.Gestão ambiental: conceitos, histórico e paradigma, instrumentos de gestão ambiental, estudo de caso.').
 
 materia('Fundamentos da Teoria Eletromagnética', ['Eletromagnetismo'], 'Eletrônica', 90, 'Conceitos básicos de análise vetorial no estudo de eletromagnetismoEletrostática. Dielétricos e capacitânciaPrimeira equação de Maxell. Corrente elétrica. Equação de continuidade. Campo magnéticoLei de Ampere. Indutância. Curva de saturação do ferro. Permeabilidade. Imãs. Lei de FaradayEnergia no campo e no campo magnético. Equações de MaxwellOndas eletromagnéticasVetor de Poynting.').
+
+materia('Física Moderna', ['Física'], 'Aeroespacial', 90, 'Teoria da relatividade restrita, os raios catódicos e radioatividade, radiação de corpo negro e a concepção corpuscular da luz, modelos atômicos clássicos, o átomo de Bohr, a mecânica quântica ondulatória da Equação de Schrodinger.').
+
+materia('Engenharia de Segurança do Trabalho', ['Segurança', 'Processos', 'Resolução de Problemas em Time'], 'Engenharias', 30, 'Interligação entre as varias engenharias e a engenharia de seguranca do trabalho.').
+
+materia('Ergonomia do Produto', ['Energia', 'Componentes Automotivos'], 'Engenharias', 60, 'Antropometria e dimensionamento do posto de trabalho Biomecânica, aspectos da postura e movimentos do corpo, esforço físico Aspectos sensoriais e cognição, concepção de dispositivos de informação Fatores ambientais no trabalho e o espaço de trabalho Projeto com ênfase em Conforto Ergonomia e Design de produtos Package Automotivo e Normas Técnicas Living Space (adequação dos espaços de interior) Concepção de assentos Concepção de dispositivos de informação aplicados aos veículos automotores Concepção de dispositivos de comando Concepção de interior de um veículo Aspectos visuais na condução de veículos automotores Validação de projeto de interior.').
+
+materia('Mecânica dos Sólidos 1 para Engenharia', ['Matemática', 'Física', 'Sólidos'], 'Engenharias', 60, 'Equilíbrio dos corpos rígidos Análise estrutural Tensões e deformações Deformação por esforço axial Geometria das massas.').
+
+materia('Introdução ao Design e Concepção de Veículos', ['Desenho', 'Veículos'], 'Automotiva', 60, 'Técnicas de desenho e ilustração- sketches manuais e digitais, história do design automotivo-evolução tecnológica, economia e sociedade, ergonomia do Produto-Introdução à Ergonomia/Projeto de "Hard Points" e função dos sistemas/Conforto e Segurança, design de interiores-relação com o usuário final/Materiais/Tendências de Mercado5- Mock-Up Eletrônico-Modelagem de um produto/Integração de sistemas/Apresentação final de produto, laboratório da Forma.').
+
+materia('Combustíveis e Biocombustíveis', ['Fluídos', 'Energia'], 'Engenharias', 60, '- Combustíveis fósseis- Energia renovável- Biodiesel- Bioetanol- Células combustíveis- Contexto macroeconômico dos biocombustíveis').
+
+materia('Estruturas Matemáticas para Computação', ['Matemática', 'Algoritmo', 'Lógica'], 'Software', 60, 'Lógica Proposicional, Teoria dos Conjuntos, demonstração de teoremas II,análise combinatória,permutações,combinações,arranjos.').
+
+materia('Processo de Desenvolvimento de Software', ['Processos', 'Desenvolvimento de Software'], 'Software', 60, 'Definição das fases de um processo de desenvolvimento de Software e das atividades de apoio.').
+
+materia('Sistemas Automotivos', ['Veículos', 'Motores'], 'Automotiva', 60, 'Alguns dos assustos abortados pela disciplina: - Conceitos básicos dos sistemas que compõem o veículo - Chassi e carroceria - Sistema de suspensão - Sistema de controle de estabilidade de veículos - Sistema de freio - Sistema de controle de tração - Sistema de potência - Sistemas de injeção eletrônica - Sistema de transmissão.').
+
+materia('Fontes de Energia e Tecnologias de Conversão', ['Termodinâmica', 'Energia', 'Transformação de Energia', 'Fontes de Energia'], 'Energia', 60, 'Fundamentos teóricos: conversão de energia, calor e trabalho, leis da Termodinâmica- Principais fontes e tecnologias de transformação de energia: solar, combustíveis, fósseis, fotovoltaica, eólica, hídricas, biomassa, geotérmica, nuclear - A questão das fontes energéticas no Brasil.').
+
+materia('Técnicas de Programação', ['Programação', 'Documentação', 'Segurança', 'Algoritmo'], 'Software', 60, 'Programação Defensiva e Programação por Contrato.Documentação, Tratamento de Erros e Depuração de código.Programação Segura.Boas Práticas de Programação e Projeto.Programação Concorrente e Paralela.Otimização de Programas e Análise de Desempenho.').
+
+materia('Desenvolvimento Sustentável', ['Energia', 'Sustentabilidade', 'Social'], 'Energia', 60, 'A evolução da discussão dos problemas ambientais e suas repercussões na formação política brasileira. Introdução ao Conceito Desenvolvimento Sustentável. Sistemas de indicadores de Sustentabilidade. Conflitos Socioambientais.').
+
+materia('Engenharia de Petróleo e Gás', ['Energia', 'Petróleo', 'Fluídos'], 'Energia', 60, 'Aborda assuntos como: O petróleo - Noções de Engenharia de Petróleo - Prospecção de Petróleo - Perfuração - Avaliação de Formações - Completação - Reservatórios - Elevação - Processamento primário de fluidos - Refino do petróleo').
+
+materia('Mecânica dos Sólidos 2 para Engenharia', ['Física', 'Sólidos'], 'Engenharias', 60, 'Aborda assuntos como: - Análise de Tensões - Teoria da elasticidade - Critérios de falha - Deflexão de vigas').
