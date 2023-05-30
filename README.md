@@ -19,13 +19,19 @@ Paradigmas:
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T02 <br>
 **Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: XX<br>
-**Paradigma**: XXXXXXXXXX<br>
+**Paradigma**: Paradigma Lógico<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 180099353  |  Cibele Freitas Goudinho - @CibeleG |
+| 190108011  |  Guilherme Brito Vilas Boas - @dev-brito |
+| 170105342  |  Irwin Schmitt - @irwinschmitt |
+| 180103792  |  Júlia Farias Sousa - @julisous |
+| 180104390  |  Lameque Fernandes Azevedo - @LamequeFernandes |
+| 201000379  |  Leonardo Milomes Vitoriano - @leonardomilv3 |
+| 180078224  |  Thaís Rebouças de Araujo - @Thais-ra |
+| 200028367  |  Victor Hugo Oliveira Leão - @victorleaoo |
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
@@ -36,7 +42,7 @@ Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no 
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
+**Linguagens**: Prolog<br>
 **Tecnologias**: xxxxxx<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
@@ -61,7 +67,7 @@ TEMPO: +/- 15min
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Fulano  |  Programação dos Fatos da Base de Conhecimento Lógica | Boa |
+| Cibele Freitas Goudinho - @CibeleG | Desenvolvimento da lógica de filtrar por ementa e palavra chave. Desenvolvimento da lógica de filtro por palavras chave a partir da área de conehcimento com o Leonardo |  |
 
 ## Outros 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
