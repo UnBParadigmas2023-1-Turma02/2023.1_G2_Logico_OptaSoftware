@@ -22,16 +22,21 @@ busca_area_conhecimento(AreaConhec, Materias) :-
 
 % Filtro de Ementa
 tem_palavra_ementa(Palavra) :-
-    findall(Materia, (
-        palavra_em_string_ementa(Palavra, Materia)
+    findall((Materia, ListaPalavras, Area, Duracao, Ementa), (
+        palavra_em_string_ementa(Palavra, Materia),
+        materia(Materia, ListaPalavras, Area, Duracao, Ementa)
     ), MateriasSemDuplicacoes),
     list_to_set(MateriasSemDuplicacoes, Materias),
     imprimir_materias(Materias).
 
 % Função auxiliar para imprimir a lista de matérias
 imprimir_materias([]).
-imprimir_materias([Materia|Resto]) :-
-    write(Materia), nl,
+imprimir_materias([(Materia, ListaPalavras, Area, Duracao, Ementa)|Resto]) :-
+    write(Materia), write(', '),
+    write(ListaPalavras), write(', '),
+    write(Area), write(', '),
+    write(Duracao), write(', '),
+    write(Ementa), nl,
     imprimir_materias(Resto).
 
 % Função auxiliar para verificar se a sub_string está na string
@@ -46,8 +51,8 @@ palavra_chave_em_string(Palavra, ListaPalavras) :-
 
 % Filtro de Palavras Chave não aceitando casos de palavras_chaves complexas(ex. "Engenharia de Software")
 tem_palavra_chave(Palavra) :-
-    findall(Materia, (
-        materia(Materia, ListaPalavras, _, _, _),
+    findall((Materia, ListaPalavras, Area, Duracao, Ementa), (
+        materia(Materia, ListaPalavras, Area, Duracao, Ementa),
         member(Palavra, ListaPalavras)
     ), MateriasSemDuplicacoes),
     list_to_set(MateriasSemDuplicacoes, Materias),
@@ -55,8 +60,8 @@ tem_palavra_chave(Palavra) :-
 
 % Filtro de Palavras Chave verificando em caso de palavras_chaves complexas(ex. "Engenharia de Software")
 tem_palavra_chave_complexa(Palavra) :-
-    findall(Materia, (
-        materia(Materia, ListaPalavras, _, _, _),
+    findall((Materia, ListaPalavras, Area, Duracao, Ementa), (
+        materia(Materia, ListaPalavras, Area, Duracao, Ementa),
         (member(Palavra, ListaPalavras); palavra_chave_em_string(Palavra, ListaPalavras))
     ), MateriasSemDuplicacoes),
     list_to_set(MateriasSemDuplicacoes, Materias),
