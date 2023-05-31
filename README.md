@@ -4,6 +4,8 @@
 **Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: 02<br>
 **Paradigma**: Lógico<br>
 
+**[GitHub Pages](https://unbparadigmas2023-1-turma02.github.io/2023.1_G2_Logico_OptaSoftware/)**
+
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
@@ -17,9 +19,17 @@
 | 200028367  |  Victor Hugo Oliveira Leão - @victorleaoo |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
-Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
-Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no projeto.
+
+A fim de praticar os conhecimentos do Paradigma Lógico, foi desenvolvido um sistema de recomendação/busca de matérias optativas para o curso de Engenharia de Software. 
+
+As disciplinas foram listadas e analisadas com base na [Estrutura Curricular 6360/1](https://sigaa.unb.br/sigaa/public/curso/curriculo.jsf?lc=pt_BR&id=414924), realizando um filtro para retirar as obrigatórias e as que não eram específicas, como, por exemplo, Atividades Complementares. Na página de [Optativas]() é possível encontrar as disciplinas filtradas e descritas de acordo com atributos julgados importantes (nome, palavras chaves, área de conhecimento, carga horária e ementa).
+
+A partir disso, então, o sistema desenvolvido possui os seguintes filtros para as disciplinas:
+
+- filtro1
+- filtro2
+
+Além disso, há, também, uma funcionalidade de geração de relatório para aqueles que desejarem.
 
 ## Screenshots
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
@@ -27,6 +37,7 @@ Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcioname
 ## Instalação 
 **Linguagens**: Prolog<br>
 **Tecnologias**: xxxxxx<br>
+
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
 Gifs animados e outras ilustrações são bem-vindos!
@@ -47,18 +58,31 @@ OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
 TEMPO: +/- 15min
 
 ## Participações
-Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
+
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Cibele Freitas Goudinho - @CibeleG | Desenvolvimento da lógica de filtrar por ementa e palavra chave. Desenvolvimento da lógica de filtro por palavras chave a partir da área de conehcimento com o Leonardo |  |
+| Cibele Freitas Goudinho - @CibeleG | - | - |
+| Guilherme Brito Vilas Boas - @dev-brito | - | - |
+| Irwin Schmitt - @irwinschmitt | - | - |
+| Júlia Farias Sousa - @julisous | - | - |
+| Lameque Fernandes Azevedo - @LamequeFernandes | - | - |
+| Leonardo Milomes Vitoriano - @leonardomilv3 | - | - |
+| Thaís Rebouças de Araujo - @Thais-ra | - | - |
+| Victor Hugo Oliveira Leão - @victorleaoo | Desenvolvimento da [base de conhecimento](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/materias.pl) e o diagrama de matérias.<br>Construção da documentação do Github Pages e README. | Boa |
 
 ## Outros 
-Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
-(i) Lições Aprendidas;
-(ii) Percepções;
-(iii) Contribuições e Fragilidades, e
-(iV) Trabalhos Futuros.
+(i) Lições Aprendidas:
+* 
+
+(ii) Percepções:
+* O simples funcionamento do Paradigma Lógico em encontrar "dados" cadastrados em sua base de conhecimento.
+
+(iii) Contribuições e Fragilidades:
+* 
+
+(iV) Trabalhos Futuros:
+* 
 
 ## Fontes
-Referencie, adequadamente, as referências utilizadas.
-Indique ainda sobre fontes de leitura complementares.
+
+> - Estrutura Curricular 6360/1 (Engenharia de Software): https://sigaa.unb.br/sigaa/public/curso/curriculo.jsf?lc=pt_BR&id=414924
