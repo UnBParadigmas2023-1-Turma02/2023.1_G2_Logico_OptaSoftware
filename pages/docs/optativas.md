@@ -1,10 +1,12 @@
-## Diagrama
-
-[Diagrama das Matérias](https://drive.google.com/file/d/1Qinkup-okRi-Gf8TRfw01AzFLpd-fSbK/view?usp=sharing)
+# Lista de Optativas
 
 ## Matérias Optativas
 
-| CÓDICO  | NOME                                                        | CARGA HORARIA | PALAVRAS-CHAVES                                                                                       | SINOPSE                                                                                      |
+Inicialmente, as disciplinas listadas como optativas na [Estrutura Curricular 6360/1](https://sigaa.unb.br/sigaa/public/curso/curriculo.jsf?lc=pt_BR&id=414924) (curso de Engenharia de Software) foram analisadas e filtradas (retiradas as obrigatórias e que não tinham ementa definida). Assim, elas foram divididas entre os integrantes do grupo para que pudessem pegar o Código, Nome, Carga Horária, Palavras Chaves (a escolha de quais palavras escolher era individual) e a Ementa/Sinopse de cada uma.
+
+Abaixo, então, encontra-se o compilado da pesquisa de cada um dos integrantes:
+
+| CÓDIGO  | NOME                                                        | CARGA HORARIA | PALAVRAS-CHAVES                                                                                       | EMENTA/SINOPSE                                                                                      |
 | :-----: | ----------------------------------------------------------- | :-----------: | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | CIC0088 | COMPUTACAO BASICA                                           | 90h           | pascal; computadores; básico; resolução de problemas; matemática; programação; algoritmo; vetores;	| Histórico do computador computadores e resolução de problemas estruturas de decisão vetores e matrizes cadeias de caracteres sub-algoritmos: funções e procedimentos estilo de programação particularidades da linguagem pascal. | 	
 | CIC0090 | ESTRUTURAS DE DADOS                                         | 60h           | dados; matemática; organização de dados; programação; memória; ordenação; estrutura de dados;  grafos; lista; pilhas; árvores; problemas;	| Gerenciamento dinâmico da memória. listas. pilhas. filas. árvores. ordenação e pesquisa.pesquisa em árvores. grafos. análise e aplicação de estruturas avançadas em problemas de programação. resolução de problemas. aplicações em problemas ambientais. | 	
@@ -125,3 +127,15 @@
 | MAT0038 | TEORIA DOS NÚMEROS 1 | 60h | matemática; resolução de problemas; ordenação; equações; | Indução Matemática e Princípio da Boa Ordenação Divisibilidade nos inteiros Equações Diofantinas Teorema Fundamental da Aritmética e aplicações Congruências Tópicos adicionais. |
 | MAT0048 | EQUACOES DIFERENCIAIS 1 | 60h | matemática; resolução de problemas; equações; álgebra linear; | Equações diferenciais ordinárias de primeira ordem, equações diferenciais ordinárias lineares, método das series de potencias, as transformadas de Laplace, sistemas lineares de equações diferenciais de primeira ordem. |
 | MAT0137 | CÁLCULO 1 - SEMIPRESENCIAL | 90h | matemática; resolução de problemas; cálculo; equações; | Função de uma variável real, Limite e Continuidade, Derivada, Integral, Aplicações da integral | 
+
+## Diagrama
+
+Enfim, os integrantes Victor e Lameque criaram um diagrama/grafo conectando as Áreas de Conhecimento (Engenherias, Aeroespacial Automotiva, Eletrônica, Energia e Software), Palavras Chaves (foram filtradas para que fossem escolhidas aquelas que fizessem mais sentido e fossem mais abrangentes) e disciplinas em si:
+
+**[Diagrama das Matérias](https://drive.google.com/file/d/1Qinkup-okRi-Gf8TRfw01AzFLpd-fSbK/view?usp=sharing)**
+
+![Diagrama das Matérias](./assets/materias.drawio.svg)
+
+*Dica de visualização: clique com o botão direito e vá em "abrir imagem em nova aba"*
+
+A partir disso, então, o arquivo com as [matérias/base de conhecimento](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/materias.pl) do projeto foi desenvolvido.
