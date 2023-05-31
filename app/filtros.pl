@@ -20,8 +20,22 @@ tem_area_conhecimento(AreaConhec):-
 busca_area_conhecimento(AreaConhec, Materias) :-
     findall(Nome, materia(Nome, _, AreaConhec, _, _), Materias).
 
-% Filtro de Ementa
-tem_palavra_ementa(PalavrasChave) :-
+% Filtro de Ementa para uma única palavra chave
+tem_palavra_ementa(Palavra) :-
+    findall((Materia, ListaPalavras, Area, Duracao, Ementa), (
+        palavra_unica_em_string_ementa(Palavra, Materia),
+        materia(Materia, ListaPalavras, Area, Duracao, Ementa)
+    ), MateriasSemDuplicacoes),
+    list_to_set(MateriasSemDuplicacoes, Materias),
+    imprimir_materias(Materias).
+
+% Fução auxiliar que verifica uma única palavra na string de Ementa
+palavra_unica_em_string_ementa(Palavra, Materia) :-
+    materia(Materia, _, _, _, String),
+    sub_string(String, _, _, _, Palavra).
+
+% Filtro de Ementa para lista de palavras
+tem_palavra_ementa_lista_palavras_chave(PalavrasChave) :-
     findall((Materia, ListaPalavras, Area, Duracao, Ementa), (
         palavra_em_string_ementa(PalavrasChave, Materia),
         materia(Materia, ListaPalavras, Area, Duracao, Ementa)
