@@ -84,3 +84,21 @@ tem_todas_palavras_chaves_complexa(_, []).
 tem_todas_palavras_chaves_complexa(ListaPalavras, [PalavraChave|Resto]) :-
     (member(PalavraChave, ListaPalavras); palavra_chave_em_string(PalavraChave, ListaPalavras)),
     tem_todas_palavras_chaves_complexa(ListaPalavras, Resto).
+
+% Filtro que verifica primeiro a área e depois verifica a palavras_chaves, não aceitando palavras_chaves complexas(ex. "Engenharia de Software")
+tem_area_e_palavra_chave(Area, PalavrasChave) :-
+    findall((Materia, ListaPalavras, Area, Duracao, Ementa), (
+        materia(Materia, ListaPalavras, Area, Duracao, Ementa),
+        tem_todas_palavras_chave(PalavrasChave, ListaPalavras)
+    ), MateriasSemDuplicacoes),
+    list_to_set(MateriasSemDuplicacoes, Materias),
+    imprimir_materias(Materias).
+
+% Filtro que verifica primeiro a área e depois verifica a palavras_chaves, aceitando palavras_chaves complexas(ex. "Engenharia de Software")
+tem_area_e_palavra_chave_complexa(Area, PalavrasChave) :-
+    findall((Materia, ListaPalavras, Area, Duracao, Ementa), (
+        materia(Materia, ListaPalavras, Area, Duracao, Ementa),
+        tem_todas_palavras_chaves_complexa(ListaPalavras, PalavrasChave)
+    ), MateriasSemDuplicacoes),
+    list_to_set(MateriasSemDuplicacoes, Materias),
+    imprimir_materias(Materias).
