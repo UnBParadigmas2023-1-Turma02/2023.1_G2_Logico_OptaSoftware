@@ -1,14 +1,4 @@
-% materia(NOME, [PALAVRAS_CHAVE], AREA_CONHECIMENTO, CARGA_HORARIA, EMENTA).
-
-% Fato matéria apenas para testar os filtros
-materia(computacao_basica, 
-    [pascal, computadores, basico, resolucao, matematica, programacao, algoritmo, vetores],
-    [software], 
-    60, 
-    "histórico do computador computadores e resolução de problemas estruturas de decisão vetores e 
-matrizes cadeias de caracteres sub-algoritmos: funções e procedimentos estilo de programação particularidades da linguagem pascal.").
-
-
+:- consult('materias.pl').
 
 % Filtro de Nome da Matéria
 tem_nome(Nome):- materia(Nome, _, _, _, _).
@@ -20,6 +10,12 @@ tem_carga_horaria(CargaHoraria):- materia(_, _, _, CargaHoraria, _).
 tem_area_conhecimento(AreaConhec):- 
     materia(_, _, ListaAreas, _, _),
     member(AreaConhec, ListaAreas).
+
+% (nome, [palavras_chaves], area_conhecimento, horas, ementa).
+
+% Predicado para buscar matérias por área de conhecimento e retorna uma Lista com Nomes das matérias
+busca_area_conhecimento(AreaConhec, Materias) :-
+    findall(Nome, materia(Nome, _, AreaConhec, _, _), Materias).
 
 % Filtro de Ementa
 tem_palavra_ementa(Palavra) :-
