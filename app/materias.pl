@@ -91,3 +91,107 @@ materia('Desenvolvimento Sustentável', ['Energia', 'Sustentabilidade', 'Social'
 materia('Engenharia de Petróleo e Gás', ['Energia', 'Petróleo', 'Fluídos'], 'Energia', 60, 'Aborda assuntos como: O petróleo - Noções de Engenharia de Petróleo - Prospecção de Petróleo - Perfuração - Avaliação de Formações - Completação - Reservatórios - Elevação - Processamento primário de fluidos - Refino do petróleo').
 
 materia('Mecânica dos Sólidos 2 para Engenharia', ['Física', 'Sólidos'], 'Engenharias', 60, 'Aborda assuntos como: - Análise de Tensões - Teoria da elasticidade - Critérios de falha - Deflexão de vigas').
+
+materia('Inovação', [''], '', 30, 'Inovação: conceitos, tipos e contextos. Tecnologia: conceitos tipos de conhecimento conversão entre tipos de conhecimento, tecnologia como entidade administrável. Empreendedorismo: conceito e principais tipos reconhecendo oportunidades etapas de um plano de negócios inovação e empreendedorismo. Proteção Intelectual: tipos e estratégias.').
+
+materia('Microprocessadores E Microcontroladores', [''], '', 60, 'Aborda assuntos como: Microcontroladores. Processadores 8086 e sua evolução. Arquitetura do PC. Memórias. Barramento ISA e endereçamento. Interfaces usando interrupção e DMA. Temporização do sistema. Portas paralela e serial e USB.').
+
+materia('Métodos Matemáticos Para Engenharia', [''], '', 60, 'Aborda assuntos como: Elementos de análise numérica (equações algébricas, sistemas de equações lineares e não-lineares, aproximação polinominal e interpolação, diferenciação e integração numérica) solução numérica de equações diferenciais, problemas de valor inicial e de contorno. tópicos especiais: métodos de montecarlo e resíduos ponderados.').
+
+materia('Eletricidade Aplicada', [''], '', 90, 'Estrutura geral de redes elétricas. Elementos constitutivos dos circuitos elétricos. Teoria de circuitos magnéticos. Conceitos fundamentais: materiais elétricos, condutores elétricos, critérios de dimensionamento de condutores proteção das instalações elétricas (proteção de redes e de motores elétricos), sistemas de aterramento de redes. Proteção contra descargas atmosféricas de redes elétricas. Métodos de análise de sistemas elétricos. Formas de compensação de energia reativa. Motores elétricos. Princípios de funcionamento de relés e dispositivos de partida/freio de sistemas motores.').
+
+materia('Métodos Experimentais Para Engenharia', [''], '', 60, 'Aborda assuntos como: 1. Introdução 2. Unidade de medida e o sistema internacional de medidas 3. Erro de medição 4. Sistemas de medição 5. Calibração de sistemas de medição. 6. Resultado de medições diretas 7. Resultado de medições indiretas 8. Propagação de incertezas através de módulos 9. Controle de qualidade 10. Planejamento experimental e experimento fatorial 11. Multivariáveis').
+
+materia('Gestão Da Produção Automotiva', [''], '', 60, 'Aborda assuntos como: 1. O setor automotivo no Brasil e no mundo. 2. O ciclo de vida do automóvel e seus componentes: da concepção à produção e à remanufatura, reciclagem ou descarte. 3. Gestão do processo de desenvolvimento de produto. 4. Gestão de operações: foco na logística interna. 5. Gestão de operações: foco na cadeia de suprimentos. 6. Tecnologias de informação associadas ao gerenciamento do projeto e produção de veículos ao longo da cadeia automotiva.').
+
+materia('Circuitos Eletrônicos 1', [''], '', 90, 'Aborda: Conceitos básicos, unidades, leis fundamentais resistência fontes ideais independentes e dependentes em redesresistivas técnicas de análise de circuitos em corrente contínua, indutância e capacitância circuitos de correntealternada: regime permanente senoidal Respostas livre e completa de circuitos 1a ordem circuitos de 2a ordemintegral de convolução. Introdução à eletrônica amplificadores operacionais diodos.').
+
+materia('Sistemas De Controle', [''], '', 60, 'Apresentação geral do problema de controle automático. Fundamentos matemáticos para análise e projeto de sistemas de controle automático: matrizes, variáveis complexas, equações diferenciais, transformadas de Laplace. Grafos de fluxo de sinal, Diagrama de blocos e Função de Transferência. Diagrama de estados e suas conversões. Modelagem linear de sistemas mecânicos, pneumáticos, hidráulicos, elétricos e térmicos. Analogias. Servomecanismos. Espaço de estados. Solução numérica de equações diferenciais ordinárias: simulação de sistemas dinâmicos. Coeficientes de erro. Sistemas de primeira e segunda ordem. Critério de estabilidade de Routh-Hurwitz. Lugar Geométrico das Raízes. Resposta em Freqüência. Curvas de Bode. Critério de estabilidade de Nyquist. Compensadores avançadores e atrasadores de fase. Controladores PID. Análise no espaço de estados: estabilidade, controlabilidade e observabilidade. Estudo de casos.').
+
+materia('Projeto De Circuitos Integrados Digitais', [''], '', 60, 'Introdução aos Circuitos Integrados. Etapas do Projeto de Chip VLSI Digital. Laboratórios.').
+
+materia('Planejamento E Gestão De Energia', [''], '', 60, 'Modelos de planejamento energético. Papel do Estado. Equivalência entre fontes de energia. Estrutura de produção e de consumo de energia. Dimensões econômicas da energia. Indicador de intensidade energética. Política energética.').
+
+materia('Dinâmica Dos Fluídos', [''], '', 75, 'Hipótese de meio contínuo e cinemática dos fluidos. Leis básicas do escoamento de fluidos. Escoamento de fluidos viscosos. Teoria da camada limite. Introdução à turbulência em fluidos. Introdução ao Escoamento Compressível.').
+
+materia('Modelagem De Processos', [''], '', 60, 'O contexto atual das organizações e seus processos. Fundamentos de engenharia de processos. Técnicas de modelagem de processos. Como gerir as mudanças e cuidar da qualidade dos processos. Automação de processos.').
+
+materia('Sistemas Críticos E Tolerância A Falhas', [''], '', 60, 'Conceitos básicos Medição e modelagem de confiabilidade Tratamento de faltas Recuperação e reconfiguração Técnicas de tolerância a falhas implementadas em hardware Técnicas de tolerância a falhas implementadas em softwareDiagnóstico e confinamento de faltas Teste e injeção de faltas Consenso.').
+
+materia('Sistemas Embarcados', [''], '', 60, 'Definições e aplicações Metodologias de desenvolvimento de sistemas embarcados Desenvolvimento de firmware Estado da arte em sistemas embarcados e em tempo real Arquitetura de microcontroladores Interfaceamento analógico e digital.').
+
+materia('Inteligência Artificial', [''], '', 60, 'O estado da arte em IA. Engenharia do conhecimento. Ontologias. Arquiteturas de sistemas baseados em conhecimento. Metodologias para desenvolvimento de sistemas inteligentes. Paradigmas simbólico, conexionista, evolucionário e híbrido. Outros assuntos relevantes dependendo o período e ano a ser ministrada esta disciplina. Aplicações. Projeto.').
+
+materia('Eletrônica Veicular', [''], '', 60, '1. Introdução sistemas elétricos automotivos 2. Componentes automotivos básicos 3. Baterias automotivas 4. Sistema de carregamento 5. Sistemas de partida do motor 6. Sistema de ignição 7. Injeção eletrônica e gerenciamento do motor 8. Sistemas de iluminação 9. Sistema elétrico do chassi 10. Diagnóstico de Bordo 11. Introdução a redes veiculares.').
+
+materia('Gerência De Configuração De Software', [''], '', 30, 'Terminologia e fundamentos de gerência de configuração de software.Identificação da configuração.Controle de mudanças.Contabilidade do estado da configuração.Verificação e auditoria da configuração.Desenvolvimento concorrente e geograficamente distribuído.Planejamento da gerencia de configuraçãoGerencia de configuração no contexto das normas e dos modelos de melhoria de processo de software.Ferramentas de apoio a gerencia de configuração de software.').
+
+materia('Métodos Formais', [''], '', 60, 'Introdução ao desenvolvimento formal de software. Classes de métodos formais. Ciclo de desenvolvimento de software formal. Verificação X validação. Classificação dos métodos formais.Introdução e aplicação de métodos formais: VDM, CSP, CCS, LOTOS, Z, OBJ, redes de Petri de Baixo Nível. Redes de Petri de Alto nível e Redes de Petri Coloridas. Modelagem de sistemas Formais utilizando Redes de Petri.').
+
+materia('Sistemas De Propulsão Híbridos', [''], '', 60, 'Ementa variável, abordando Análise e Projeto de Sistemas de Propulsão Híbridos.').
+
+materia('Instrumentação E Sistemas De Controle', [''], '', 75, 'Estrutura geral de um sistema de medição e seus elementos típicos.Elementos sensores.Elementos de condicionamento e de processamento de sinais. Apresentação de dados. Aspecto de projeto de um sistema de controle.Elementos de uma malha de controle. Controladores analógicos e digitais, para malhas simples e múltiplas. Modelo linearizado para controle de processo.Comportamento dinâmico dos processos. Respostas dos sistemas no domínio do tempo e da freqüência.').
+
+materia('Ciências Aeroespaciais', [''], '', 60, 'Introduz os princípios e conceitos fundamentais de termodinâmica, de calor, de física dos fluidos, de dinâmica de corpos rígidos, de gravitação e de ondas aplicados a sistemas de tecnologia aeroespacial Enfatiza a síntese das ciências básicas, física, química, matemática e métodos experimentais que formam a base para análises quantitativas e qualitativas dos sistemas de tecnologia aeroespacial.').
+
+materia('Introdução Aos Jogos Eletrônicos', [''], '', 60, 'Tópicos introdutórios ao desenvolvimento de jogos. linguagens e arquitetura de jogos. fundamentos de programação aplicados ao desenvolvimento de jogos. tópicos avançados em desenvolvimento de jogos, tais como detecção de colisão e inteligência artificial.').
+
+materia('Algoritmos E Programação De Computadores', [''], '', 90, 'Princípios fundamentais de construção de programas. Construção de algoritmos e sua representação em pseudocódigo e linguagens de alto nível. Noções de abstração. Especificação de variáveis e funções. Testes e depuração. Padrões de soluções em programação. Noções de programação estruturada. Identificadores e tipos. Operadores e expressões. Estruturas de controle: condicional e repetição. Entrada e saída de dados. Estruturas de dados estáticas: agregados homogêneos e heterogêneos. Iteração e recursão. Noções de análise de custo e complexidade. Desenvolvimento sistemático e implementação de programas. Estruturação, depuração, testes e documentação de programas. Resolução de problemas. Aplicações em casos reais e questões ambientais.').
+
+materia('Desenvolvimento De Software', [''], '', 60, 'Práticas de programação em ambientes gráficos e lúdicos. Organização e processamento de dados. Introdução à arquitetura de software. Introdução aos conceitos de Engenharia de Software.').
+
+materia('Prática De Eletrônica Digital 1', [''], '', 30, 'Sistemas de Numeração e Códigos. Portas Lógicas e Álgebra Booleana. Circuitos Lógicos Combinacionais. VHDL. Aritmética Digital: Operações e Circuitos. Circuitos Lógicos MSI. Princípios de Sistemas Sequenciais.').
+
+materia('Teoria De Eletrônica Digital 1', [''], '', 60, 'Sistemas de Numeração e Códigos. Portas Lógicas e Álgebra Booleana. Circuitos Lógicos Combinacionais. VHDL. Aritmética Digital: Operações e Circuitos. Circuitos Lógicos MSI. Princípios de Sistemas Sequenciais.').
+
+materia('Matemática Discreta 1', [''], '', 60, 'Lógica Proposicional Booleana. Teoria dos Conjuntos. Demonstração de Teoremas. Análise Combinatória. Permutações, Combinações e Arranjos.').
+
+materia('Projeto De Algoritmos', [''], '', 60, 'Complexidade Computacional. Máquinas de Turing. Problemas NP e NP-Completos. Algoritmos avançados em grafos. Algoritmos gulosos. Dividir para conquistar. Programação Dinâmica. Aplicações').
+
+materia('Qualidade De Software 2', [''], '', 60, 'Custo da qualidade de software; Avaliação do retorno de investimento em qualidade de software; Produtividade e qualidade de software; Fundamentos de engenharia de software baseada em valor; Fundamentos de controle estatístico de processo.').
+
+materia('Informação, Comunicação E A Sociedade Do Conhecimento', [''], '', 60, 'Cultura e Sociedade do conhecimento. A função social dos produtos da tecnologia da informação e comunicação. Governança Tecnopolítica: Biopoder e Democracia. Análise das ferramentas da tecnologia da informação e comunicação na Sociedade do Conhecimento: redes sociais. Ética das Tecnologias de Informação na Sociedade do Conhecimento.').
+
+materia('Técnicas De Programação Em Plataformas Emergentes', [''], '', 60, 'Programação Defensiva. Assertivas e Programação por Contrato. Documentação de Código. Tratamento de Erros e Depuração de Código. Boas Práticas de Programação e Projeto. Refatoração. Frameworks. Desenvolvimento Avançado de Software.').
+
+materia('Física Para Jogos Eletrônicos 1', [''], '', 60, 'Estudo dos comportamentos físicos dos elementos de jogos eletrônicos; efeitos de gravidade, atrito, colisão, aceleração e desaceleração; propriedades dos elementos por meio da simulação dinâmica respectiva (peso, dimensões, juntas, elasticidade)').
+
+materia('Aprendizado De Máquina', [''], '', 60, 'Introdução a métodos de aprendizado de máquina que são comumente utilizados em aplicações de reconhecimento de padrões em sinais (texto, som e imagem). Regressão. Classificação. Aprendizado não supervisionado. Máquinas de vetores de suporte. Redes neurais artificiais.').
+
+materia('Introdução À Web Semântica', [''], '', 60, 'Conceito de Web semântica. RDF, RDF-Schema. Ontologias. Linguagens para Criação de Ontologias. Linguagem para a definição de regras. Editores de ontologia. Serviços Web. Serviços Web Semânticos.').
+
+materia('Física Para Jogos Eletrônicos 2', [''], '', 60, 'Simulação de força em corpos rígidos e/ou elásticos; Reações a colisões (deformar, quicar, saltar, quebrar); Simulações de corpos sofrendo interações com efeitos naturais (água, vento, fogo, sistemas de partículas, explosões).').
+
+materia('Compiladores 2', [''], '', 60, 'Tradução dirigida pela sintaxe; Verificação de tipos; Sobrecarga de funções e operadores; Ambientes em tempo de execução; Organização de memória; Tabelas de símbolos; Linguagens intermediárias; Retrocorreção; Gerenciamento de memória em tempo de execução; Alocação e atribuição de registradores; Otimização _peephole_; Laços em grafos de fluxo; Introdução a análise global de fluxo de dados; Algoritmos de fluxo de dados eficientes.').
+
+materia('Melhoria De Processos De Software', [''], '', 60, 'Qualidade Produto e Processo. Programa de Melhoria de Processo de Software. Modelos de melhoria de processo de software. Normas. Garantia de qualidade do produto e do processo. Modelos de avaliação de processo de software. Análise de causa-raiz e prevenção de defeitos. Ferramentas.').
+
+materia('Introdução A Computação Gráfica', [''], '', 60, 'Luz e Cor. Modelagem de objetos. Transformacoes Geometricas. Técnicas de Visualizacao. Curvas e Superficies. Tecnicas de Iluminacao. Animacao. Processo de renderização. Primitivas de visualização. Transformada rígida. Perspectiva. Material.').
+
+materia('Economia De Energia', [''], '', 60, 'Aspectos conceituais da teoria econômica aplicada à energia. A formação histórica da economia mundial da energia. Economia da indústria do petróleo. Economia da indústria elétrica. Economia da indústria do gás natural.').
+
+materia('Produtividade E Profissionalismo Em Engenharia De Software', [''], '', 60, 'Aspectos humanos em engenharia de software. Processos de indivíduos e de equipes. Produtividade. Gestão de relacionamentos. Técnicas de comunicação em grupo. Técnicas de elaboração de apresentações. Técnicas de condução de reunião. Dinâmicas de grupo. Resolução de conflitos. Técnicas de leitura, interpretação e escrita de textos. Competências necessárias ao engenheiro de software e aspectos organizacionais. Noções de direitos autorais, propriedade intelectual e certificação profissional na área de Engenharia de Software. Código de ética e conduta profissional para engenheiros de software.').
+
+materia('Engenharia De Software Experimental', [''], '', 60, 'Introdução à ciência. Princípios gerais de Metodologia e de Experimentação: Abordagens, Métodos e Técnicas. Pesquisa em banco de dados e leitura de artigos científicos. Projeto e design de pesquisas experimentais em Engenharia de Software Experimental.').
+
+materia('Computação Em Nuvem', [''], '', 60, 'Introdução ao paradigma de computação em nuvem. Conceitos, vantagens, desvantagens e características. Arquitetura da Computação em Nuvem: Infraestrutura como Serviço (Infrastructure as a Service - IaaS ). Plataforma como Serviço (Platform as a Service - PaaS )e Software como Serviço (Software as a Service - SaaS ). Ferramentas de Implementação. Infraestrutura de Armazenamento: SimpleDB, Big Table, Simple Storage Service, storage virtualization, cloud storage. Segurança no armazenamento de dados em Computação em Nuvem. Introdução a Confiança e Reputação em Computação em Nuvens e aplicações.').
+
+materia('Programação Web', [''], '', 60, 'Conceitos básicos da tecnologia Web. Tecnologias de programação WEB: linguagens de script e de marcação. Modelo MVC (Model-View-Controller). Servidores de aplicação Web. Plataformas de desenvolvimento. Frameworks para desenvolvimento Web.').
+
+materia('Introducao A Atividade Empresarial', [''], '', 60, 'Introdução à Atividade Empresarial tem como objetivo desenvolver competências básicas e emergentes na área de inovação tecnológica, do empreendedorismo e promover o autodesenvolvimento de futuros empreendedores nas 4 temáticas a seguir: Competências Empreendedoras, Plano de Negócio, Marketing e Gestão Financeira.').
+
+materia('Química Geral', [''], '', 90, 'Abordagem conceitual dos princípios fundamentais da Química e suas aplicações, usando exemplo de compostos orgânicos e inorgânicos. Ênfase à interface da Química com as diversas áreas do conhecimento. Introdução ao trabalho em laboratório de química. Observação e interpretação de fenômenos químicos através da realização de experimentos representativos que correlacionem o aspecto conceitual à vida cotidiana de uma maneira estimulante.').
+
+materia('Quimica Geral Teorica', [''], '', 60, 'Abordagem conceitual dos princípios fundamentais da Química e suas aplicações, usando exemplo de compostos orgânicos e inorgânicos. Ênfase à interface da Química com as diversas áreas do conhecimento. Introdução ao trabalho em laboratório de química. Observação e interpretação de fenômenos químicos através da realização de experimentos representativos que correlacionem o aspecto conceitual à vida cotidiana de uma maneira estimulante.').
+
+materia('Quimica Geral Experimental', [''], '', 30, 'Caracterização da natureza e do papel das investigações experimentais em química. Estudo de medidas e de algarismos significativos. Desenvolvimento de habilidades de manuseio de aparelhos volumétricos, de sistemas de filtração, destilação e de processos químicos. Desenvolvimento do espírito de observação, análise e interpretação de fenômenos químicos. Estudo experimental de processos químicos elementares.').
+
+materia('Língua De Sinais Brasileira - Básico', [''], '', 60, 'Introdução: aspectos clínicos, educacionais e sócio-antropológicos da surdez. A Língua de Sinais Brasileira - Libras: noções básicas de fonologia, de morfologia e de sintaxe. Estudos do léxico da Libras. Noções de variação. Praticar Libras.').
+
+materia('Cálculo 3', [''], '', 90, 'Vetores no plano e no espaço funções de várias variáveis fórmula de Taylor e aplicações transformações diferenciáveis o teorema da função inversa e da função Implícita.').
+
+materia('Teoria Dos Números 1', [''], '', 60, 'Indução Matemática e Princípio da Boa Ordenação Divisibilidade nos inteiros Equações Diofantinas Teorema Fundamental da Aritmética e aplicações Congruências Tópicos adicionais.').
+
+materia('Equacoes Diferenciais 1', [''], '', 60, 'Equações diferenciais ordinárias de primeira ordem, equações diferenciais ordinárias lineares, método das series de potencias, as transformadas de Laplace, sistemas lineares de equações diferenciais de primeira ordem.').
+
+materia('Cálculo 1 - Semipresencial', [''], '', 90, 'Função de uma variável real, Limite e Continuidade, Derivada, Integral, Aplicações da integral').
