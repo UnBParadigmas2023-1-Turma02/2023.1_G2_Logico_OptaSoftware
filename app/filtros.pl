@@ -3,22 +3,22 @@
 % Formatar saída do prolog, remover pergunta, evitar truncamento
 :- set_prolog_flag(toplevel_print_options, [quoted(true), portray(true), max_depth(0)]).
 
-% Filtro de Nome da Matéria
-tem_nome(Nome):- materia(Nome, _, _, _, _).
-
 % Filtro de Carga Horária da Matéria
-tem_carga_horaria(CargaHoraria):- materia(_, _, _, CargaHoraria, _).
+tem_carga_horaria(CargaHoraria):- 
+    findall((Materia, ListaPalavras, AreaConhec, CargaHoraria, Ementa), 
+        materia(Materia, ListaPalavras, AreaConhec, CargaHoraria, Ementa), 
+        MateriasSemDuplicacoes),
+    list_to_set(MateriasSemDuplicacoes, Materias),
+    imprimir_materias(Materias).
 
 % Filtro de Area de Conhecimento
-tem_area_conhecimento(AreaConhec):- 
-    materia(_, _, ListaAreas, _, _),
-    member(AreaConhec, ListaAreas).
+tem_area_conhecimento(AreaConhec):-     
+    findall((Materia, ListaPalavras, AreaConhec, Duracao, Ementa), 
+        materia(Materia, ListaPalavras, AreaConhec, Duracao, Ementa), 
+        MateriasSemDuplicacoes),
+    list_to_set(MateriasSemDuplicacoes, Materias),
+    imprimir_materias(Materias).
 
-% (nome, [palavras_chaves], area_conhecimento, horas, ementa).
-
-% Predicado para buscar matérias por área de conhecimento e retorna uma Lista com Nomes das matérias
-busca_area_conhecimento(AreaConhec, Materias) :-
-    findall(Nome, materia(Nome, _, AreaConhec, _, _), Materias).
 
 % Filtro de Ementa para uma única palavra chave
 tem_palavra_ementa(Palavra) :-
@@ -29,7 +29,7 @@ tem_palavra_ementa(Palavra) :-
     list_to_set(MateriasSemDuplicacoes, Materias),
     imprimir_materias(Materias).
 
-% Fução auxiliar que verifica uma única palavra na string de Ementa
+% Função auxiliar que verifica uma única palavra na string de Ementa
 palavra_unica_em_string_ementa(Palavra, Materia) :-
     materia(Materia, _, _, _, String),
     sub_string(String, _, _, _, Palavra).
