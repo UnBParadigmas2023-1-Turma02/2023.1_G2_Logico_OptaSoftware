@@ -4,7 +4,7 @@
 
 % Criação de estrutura inicial do Markdown
 cabecalho_markdown() :-
-    open('./Relatorios/out.md', append, Out),
+    open('./Relatorios/out.md', write, Out),
    	write(Out, '| NOME | CARGA HORARIA | EMENTA |'),
     write(Out, '\n'),
     write(Out, '| ----- | :----: | ------- |'),
