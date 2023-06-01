@@ -66,7 +66,7 @@ TEMPO: +/- 15min
 | Irwin Schmitt - @irwinschmitt | - | - |
 | Júlia Farias Sousa - @julisous | - | - |
 | Lameque Fernandes Azevedo - @LamequeFernandes | - | - |
-| Leonardo Milomes Vitoriano - @leonardomilv3 | - | - |
+| Leonardo Milomes Vitoriano - @leonardomilv3 | Desenvolvimento dos [filtros](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/filtros.pl) | Boa |
 | Thaís Rebouças de Araujo - @Thais-ra | - | - |
 | Victor Hugo Oliveira Leão - @victorleaoo | Desenvolvimento da [base de conhecimento](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/materias.pl) e o diagrama de matérias.<br>Construção da documentação do Github Pages e README. | Boa |
 
