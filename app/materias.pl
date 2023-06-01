@@ -158,7 +158,7 @@ materia('Compiladores 2', ['Compiladores', 'Programação', 'Linguagens de Progr
 
 materia('Melhoria De Processos De Software', ['Qualidade', 'Normas', 'Gestão'], 'Software', 60, 'Qualidade Produto e Processo. Programa de Melhoria de Processo de Software. Modelos de melhoria de processo de software. Normas. Garantia de qualidade do produto e do processo. Modelos de avaliação de processo de software. Análise de causa-raiz e prevenção de defeitos. Ferramentas.').
 
-materia('Introdução A Computação Gráfica', ['Imagem', 'Computação', ], 'Software', 60, 'Luz e Cor. Modelagem de objetos. Transformacoes Geometricas. Técnicas de Visualizacao. Curvas e Superficies. Tecnicas de Iluminacao. Animacao. Processo de renderização. Primitivas de visualização. Transformada rígida. Perspectiva. Material.').
+materia('Introdução A Computação Gráfica', ['Imagem', 'Computação'], 'Software', 60, 'Luz e Cor. Modelagem de objetos. Transformacoes Geometricas. Técnicas de Visualizacao. Curvas e Superficies. Tecnicas de Iluminacao. Animacao. Processo de renderização. Primitivas de visualização. Transformada rígida. Perspectiva. Material.').
 
 materia('Economia De Energia', ['Tecnologia', 'Sustentabilidade'], 'Energia', 60, 'Aspectos conceituais da teoria econômica aplicada à energia. A formação histórica da economia mundial da energia. Economia da indústria do petróleo. Economia da indústria elétrica. Economia da indústria do gás natural.').
 
@@ -178,7 +178,7 @@ materia('Quimica Geral Teorica', ['Cálculo', 'Equações'], 'Engenharias', 60, 
 
 materia('Quimica Geral Experimental', ['Cálculo', 'Laboratório', 'Equações'], 'Engenharias', 30, 'Caracterização da natureza e do papel das investigações experimentais em química. Estudo de medidas e de algarismos significativos. Desenvolvimento de habilidades de manuseio de aparelhos volumétricos, de sistemas de filtração, destilação e de processos químicos. Desenvolvimento do espírito de observação, análise e interpretação de fenômenos químicos. Estudo experimental de processos químicos elementares.').
 
-materia('Língua De Sinais Brasileira - Básico', ['Linguagens', ], 'Engenharias', 60, 'Introdução: aspectos clínicos, educacionais e sócio-antropológicos da surdez. A Língua de Sinais Brasileira - Libras: noções básicas de fonologia, de morfologia e de sintaxe. Estudos do léxico da Libras. Noções de variação. Praticar Libras.').
+materia('Língua De Sinais Brasileira - Básico', ['Linguagens'], 'Engenharias', 60, 'Introdução: aspectos clínicos, educacionais e sócio-antropológicos da surdez. A Língua de Sinais Brasileira - Libras: noções básicas de fonologia, de morfologia e de sintaxe. Estudos do léxico da Libras. Noções de variação. Praticar Libras.').
 
 materia('Cálculo 3', ['Cálculo', 'Equações', 'Matemática'], 'Engenharias', 90, 'Vetores no plano e no espaço funções de várias variáveis fórmula de Taylor e aplicações transformações diferenciáveis o teorema da função inversa e da função Implícita.').
 
