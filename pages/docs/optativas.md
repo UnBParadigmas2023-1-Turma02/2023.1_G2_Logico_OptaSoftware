@@ -139,3 +139,10 @@ Enfim, os integrantes Victor e Lameque criaram um diagrama/grafo conectando as �
 *Dica de visualização: clique com o botão direito e vá em "abrir imagem em nova aba"*
 
 A partir disso, então, o arquivo com as [matérias/base de conhecimento](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/materias.pl) do projeto foi desenvolvido.
+
+## Versionamento
+
+| Data       | Versão | Descrição                          | Autor(es)         |
+| :--------: | :----: | :---------------------------------:| :---------------: |
+| 31/05/2023 |  1.0   | Documentação das tarefas optativas | Victor Hugo |
+| 01/06/2023 |  1.1   | Adição da tabela de versionamento  | Lameque Fernandes |
