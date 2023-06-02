@@ -72,7 +72,7 @@ TEMPO: +/- 15min
 
 ## Outros 
 (i) Lições Aprendidas:
-* 
+* Aplicação de forma bem intuitiva da declaração de uma estrutura em Prolog, nesse caso, uma matéria.
 
 (ii) Percepções:
 * O simples funcionamento do Paradigma Lógico em encontrar "dados" cadastrados em sua base de conhecimento.
