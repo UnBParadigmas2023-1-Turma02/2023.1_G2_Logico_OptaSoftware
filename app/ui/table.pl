@@ -2,12 +2,20 @@
 :- use_module(library(autowin)).
 :- use_module(library(pce)).
 
+list_to_string(List, AtomString) :-
+    with_output_to(string(String), write_term(List, [quoted(true)])),
+    atom_string(AtomString, String).
+
+string_to_list(String, List) :-
+    atom_chars(String, CharList),
+    read_term_from_chars(CharList, List, []).
+
+
 make_table(Materias) :-
     new(P, dialog('Resultado da Busca')),
-    
-    % Create the button
     new(B, button('Gerar Relatório em Markdown')),
-    send(B, message, message(@pce, button_clicked,(1,2,3))),
+    list_to_string(Materias,LMS),
+    send(B, message, message(@prolog, gerar_relatorio, LMS)),
     send(B, colour, blue),
     send(P, display, B),
 
@@ -18,7 +26,6 @@ make_table(Materias) :-
     
     send(B, position, point(X, 10)),
     
-    % Create the table
     new(T, tabular),
     send(T, border, 1),
     send(T, cell_spacing, -1),
@@ -30,10 +37,8 @@ make_table(Materias) :-
     ]),
     add_rows(T, Materias),
     
-    % Display the table
-    send(P, display, T, point(10, 50)), % Adjust the table position
+    send(P, display, T, point(10, 50)), 
     
-    % Open the picture
     send(P, open), !.
 
 
@@ -49,6 +54,6 @@ add_rows(T,[(Nome,_,_,CargaHoraria,Ementa) | Resto]) :-
     ]),
     add_rows(T, Resto).
 
-% Define the button_clicked predicate to receive the complex structure
-button_clicked((A,B,C)) :-
-    writeln(A).
+gerar_relatorio(MateriasString) :-
+    string_to_list(MateriasString, ListaMaterias),
+    writeln(ListaMaterias).
