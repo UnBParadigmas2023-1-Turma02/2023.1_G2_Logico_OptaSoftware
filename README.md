@@ -61,7 +61,7 @@ TEMPO: +/- 15min
 
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Cibele Freitas Goudinho - @CibeleG | - | - |
+| Cibele Freitas Goudinho - @CibeleG | Desenvolvimento dos [filtros](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/filtros.pl) | Excelente |
 | Guilherme Brito Vilas Boas - @dev-brito | - | - |
 | Irwin Schmitt - @irwinschmitt | - | - |
 | Júlia Farias Sousa - @julisous | - | - |

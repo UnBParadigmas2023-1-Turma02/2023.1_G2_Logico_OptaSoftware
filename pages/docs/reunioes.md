@@ -16,8 +16,9 @@ Na reunião do dia 25/05, a equipe debateu sobre a interface da aplicação e re
 | Interface                          | Guilherme e Irwin |
 | Montagem da Base de Conhecimento   | Lameque e Victor  |
 | Github Pages e documentação        | Lameque e Victor  |
-| Filtragem por área de conhecimento | Cibele e Leonardo |
-| Filtragem por palavras-chave       | Cibele e Leonardo |
+| Filtragem por área de conhecimento | Leonardo          |
+| Filtragem por palavras-chave       | Cibele            |
+| Filtragem por área e palavras-chave| Cibele e Leonardo |
 | Filtrarem por carga horaria        | Leonardo          |
 | Filtrarem por ementa               | Cibele            |
 | Geração de Relatório em markdown   | Júlia e Thaís     |
