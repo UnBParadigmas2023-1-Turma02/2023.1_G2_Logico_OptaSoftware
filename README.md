@@ -33,6 +33,26 @@ Além disso, há, também, uma funcionalidade de geração de relatório para aq
 
 ## Screenshots
 
+### Tela de Escolha de Filtros
+
+![Captura de tela de 2023-06-02 18-53-54](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/assets/98705337/2036b7ef-eb5b-4844-a514-2ecc6bf16053)
+
+### Tela de Escolha por Aŕea
+
+![Captura de tela de 2023-06-02 18-54-05](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/assets/98705337/3a70ef73-4631-43db-8882-d4d0b86e593b)
+
+### Tela de Retorno da Busca
+
+![Captura de tela de 2023-06-02 18-54-15](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/assets/98705337/e485ff74-fdce-4734-9ce3-a83e15b9f181)
+
+### Conteúdo do Arquivo do Relatório
+
+![Captura de tela de 2023-06-02 19-03-02](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/assets/98705337/27a4f604-67cc-47cc-aa01-131be3c50171)
+
+
+### Relatório em PDF gerado com o pandoc (script executado independente ao programa)
+
+![Captura de tela de 2023-06-02 18-59-33](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/assets/98705337/8fe767d1-340c-4b01-a828-b655c6b13206)
 
 ## Instalação 
 **Linguagens**: Prolog<br>
@@ -48,11 +68,8 @@ git clone https://github.com/UnBParadigmas2023-1-Turma02/20231_G2_Logico_OptaSof
 ```bash
 cd app
 
-swipl
-```
-```bash
-[main].
- main.
+swipl -q -s main.pl -g main
+
  ```
 
 ## Vídeo
