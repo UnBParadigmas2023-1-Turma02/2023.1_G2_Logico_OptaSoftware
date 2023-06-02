@@ -1,7 +1,7 @@
 # OptaSoftware
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T02 <br>
-**Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: 02<br>
+**Nro do Grupo**: 02<br>
 **Paradigma**: Lógico<br>
 
 **[GitHub Pages](https://unbparadigmas2023-1-turma02.github.io/2023.1_G2_Logico_OptaSoftware/)**
@@ -64,10 +64,10 @@ TEMPO: +/- 15min
 | Cibele Freitas Goudinho - @CibeleG | Desenvolvimento dos [filtros](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/filtros.pl) | Excelente |
 | Guilherme Brito Vilas Boas - @dev-brito | Desenvolvimento da tabela de Resultados da Busca e Integração com os filtros, além de contribuir ativamente com considerações nas reuniões que fizemos. | Excelente |
 | Irwin Schmitt - @irwinschmitt | - | - |
-| Júlia Farias Sousa - @julisous | - | - |
+| Júlia Farias Sousa - @julisous | Desenvolvimento da geração do [relatório](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/relatorio.pl) | Excelente |
 | Lameque Fernandes Azevedo - @LamequeFernandes | Desenvolvimento da [base de conhecimento](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/materias.pl) e o diagrama de matérias.<br>Construção da documentação do Github Pages, requisitos e reuniões | Boa |
 | Leonardo Milomes Vitoriano - @leonardomilv3 | Desenvolvimento dos [filtros](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/filtros.pl) | Boa |
-| Thaís Rebouças de Araujo - @Thais-ra | - | - |
+| Thaís Rebouças de Araujo - @Thais-ra | Desenvolvimento da geração do [relatório](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/relatorio.pl) | Excelente |
 | Victor Hugo Oliveira Leão - @victorleaoo | Desenvolvimento da [base de conhecimento](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/materias.pl) e o diagrama de matérias.<br>Construção da documentação do Github Pages e README. | Boa |
 
 ## Outros 
