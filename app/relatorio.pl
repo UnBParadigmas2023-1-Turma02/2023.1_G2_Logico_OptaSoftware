@@ -5,7 +5,7 @@
 cabecalho_markdown(Materias) :-
     open('./Relatorios/out.md', write, Out),
     write(Out, '# Relatório de Matérias Buscadas\n\n'),
-    write(Out, '![Logo](\'/Relatorios/logo.png\')\n\n'),
+    write(Out, '![Logo](logo.png)'),
     write(Out, '| NOME | CARGA HORARIA | EMENTA |\n'),
     write(Out, '| ------ | ------ | ----- |\n'),
     imprimir_materias(Out,  Materias),
