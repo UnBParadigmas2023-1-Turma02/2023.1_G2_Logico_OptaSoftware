@@ -1,6 +1,8 @@
 # Relatório de Matérias Buscadas
 
-![Logo](logo.png)| NOME | CARGA HORARIA | EMENTA |
+![Logo](logo.png)
+
+| NOME | CARGA HORARIA | EMENTA |
 | ------ | ------ | ----- |
 | Fenômenos de Transporte | 75 | Mecânica dos fluidos: propriedades dos fluidos estática dos fluidos -manometria, forças em superfícies planas e curvas, empuxo, estabilidade de corpos submersos e flutuantes estudo dos fluidos em movimento - tipos de escoamento, conceitos de sistema e volume de controle, conservação de massa,equação de energia e suas aplicações, equação de bernoulli, linhas de gradiente de energia, equação da quantidade de movimento e suas aplicações análise dimensional e semelhança dinâmica escoamentos internos - efeitos de viscosidade, escoamentos laminar e turbulento, perdas distribuídas e localizadas,escoamento permanente à superfície livre máquinas de fluxo - teoria, diagrama de velocidades, equações teóricas das máquinas, aplicações simples de curvas de bombas e curvas de sistema escoamentos externos escoamento de fluidos compressíveis. transferência de massa: difusão molecular e difusividade transferência de massa por convecção e difusão turbulenta. transmissão de calor. |
 | Aerodinâmica de Sistemas Aeroespaciais | 75 | Introduz princípios fundamentais da aerodinâmica de sistemas aeroespaciais: veículos aéreos e espaciais, estudando elementos de escoamentos de alta e baixa velocidade, internos e externos Tópicos em escoamentos incompressíveis incluem: teoria e modelagem escoamentos incompressíveis bidimensionais e tridimensionais, e camada limite laminar e turbulenta aplicadas a aerofólios e asas Tópicos em escoamentos compressíveis incluem: teoria e modelagem de propagação de ondas de choque e camada limite compressível aplicadas a aerofólios, asas, bocais, difusores e túneis de vento. |
