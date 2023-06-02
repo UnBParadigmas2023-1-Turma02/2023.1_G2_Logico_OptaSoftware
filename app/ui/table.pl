@@ -56,7 +56,5 @@ add_rows(T,[(Nome,_,_,CargaHoraria,Ementa) | Resto]) :-
     add_rows(T, Resto).
 
 gerar_relatorio(MateriasString) :-
-    writeln(MateriasString),
     string_to_list(MateriasString, ListaMaterias),
-    writeln(MateriasString, ListaMaterias),
     cabecalho_markdown(ListaMaterias).
