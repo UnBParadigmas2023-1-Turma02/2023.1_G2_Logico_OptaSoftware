@@ -2,8 +2,7 @@
 
 :- ensure_loaded('ui/main_filter_dialog.pl').
 :- ensure_loaded('ui/area_filter_dialog.pl').
-
-
+:- ensure_loaded('filtros.pl').
 
 main :-
     main_filter_dialog(Button),
@@ -11,5 +10,5 @@ main :-
     ( Button == 'Área'
     -> area_filter_dialog(Area),
         format('Área selecionada: ~w~n', [Area]),
-        % tem_area_conhecimento(Area);
+        tem_area_conhecimento(Area);
         true).
