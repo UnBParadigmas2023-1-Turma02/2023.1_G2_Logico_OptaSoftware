@@ -1,4 +1,5 @@
-# OptaSoftware
+<img width="386" alt="logo" src="https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/assets/60350851/199dca77-a6f4-43e3-8caf-43c769690815">
+
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T02 <br>
 **Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: 02<br>
@@ -62,7 +63,7 @@ TEMPO: +/- 15min
 | Cibele Freitas Goudinho - @CibeleG | Desenvolvimento dos [filtros](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/filtros.pl) | Excelente |
 | Guilherme Brito Vilas Boas - @dev-brito | Desenvolvimento da tabela de Resultados da Busca e Integração com os filtros, além de contribuir ativamente com considerações nas reuniões que fizemos. | Excelente |
 | Irwin Schmitt - @irwinschmitt | - | - |
-| Júlia Farias Sousa - @julisous | - | - |
+| Júlia Farias Sousa - @julisous | Desenvolvimento do gerador de relatório [relatório] (https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/relatorios/app/relatorio.pl)| - |
 | Lameque Fernandes Azevedo - @LamequeFernandes | Desenvolvimento da [base de conhecimento](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/materias.pl) e o diagrama de matérias.<br>Construção da documentação do Github Pages, requisitos e reuniões | Boa |
 | Leonardo Milomes Vitoriano - @leonardomilv3 | Desenvolvimento dos [filtros](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/filtros.pl) | Boa |
 | Thaís Rebouças de Araujo - @Thais-ra | - | - |
@@ -71,7 +72,7 @@ TEMPO: +/- 15min
 ## Outros 
 (i) Lições Aprendidas:
 
-- Adicionar
+
 
 (ii) Percepções:
 
@@ -79,7 +80,8 @@ TEMPO: +/- 15min
 
 (iii) Contribuições e Fragilidades:
 
-- Adicionar 
+**- O paradigma é difícil de ser modularizado, sendo necessária a constante integração e comunicação de toda a equipe durante o desenvolvimento do trabalho**
+**- O log de erros é de difícil interpretação, portante é necessário estudar bastante não só sobre o paradigma como o Prolog em si**
 
 (iV) Trabalhos Futuros:
 
