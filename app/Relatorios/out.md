@@ -1,2 +1,0 @@
-| NOME | CARGA HORARIA | EMENTA |
-| ------ | ------ | ----- |
