@@ -2,6 +2,8 @@
 :- use_module(library(autowin)).
 :- use_module(library(pce)).
 
+:- consult('../relatorio.pl').
+
 list_to_string(List, AtomString) :-
     with_output_to(string(String), write_term(List, [quoted(true)])),
     atom_string(AtomString, String).
@@ -9,7 +11,6 @@ list_to_string(List, AtomString) :-
 string_to_list(String, List) :-
     atom_chars(String, CharList),
     read_term_from_chars(CharList, List, []).
-
 
 make_table(Materias) :-
     new(P, dialog('Resultado da Busca')),
@@ -56,4 +57,4 @@ add_rows(T,[(Nome,_,_,CargaHoraria,Ementa) | Resto]) :-
 
 gerar_relatorio(MateriasString) :-
     string_to_list(MateriasString, ListaMaterias),
-    writeln(ListaMaterias).
+    cabecalho_markdown(ListaMaterias).
