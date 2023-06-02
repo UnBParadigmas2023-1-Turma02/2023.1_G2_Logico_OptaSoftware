@@ -46,11 +46,14 @@ Além disso, há, também, uma funcionalidade de geração de relatório para aq
 git clone https://github.com/UnBParadigmas2023-1-Turma02/20231_G2_Logico_OptaSoftware
 ```
 ```bash
+cd app
+
 swipl
-
-[main].
 ```
-
+```bash
+[main].
+ main.
+ ```
 
 ## Vídeo
 
