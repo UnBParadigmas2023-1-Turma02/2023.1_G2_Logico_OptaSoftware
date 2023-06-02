@@ -1,10 +1,9 @@
-# OptaSoftware
+<img width="386" alt="logo" src="https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/assets/60350851/199dca77-a6f4-43e3-8caf-43c769690815">
+
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T02 <br>
-**Nro do Grupo**: 02<br>
+**Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: 02<br>
 **Paradigma**: Lógico<br>
-
-**[GitHub Pages](https://unbparadigmas2023-1-turma02.github.io/2023.1_G2_Logico_OptaSoftware/)**
 
 ## Alunos
 |Matrícula | Aluno |
@@ -22,40 +21,39 @@
 
 A fim de praticar os conhecimentos do Paradigma Lógico, foi desenvolvido um sistema de recomendação/busca de matérias optativas para o curso de Engenharia de Software. 
 
-As disciplinas foram listadas e analisadas com base na [Estrutura Curricular 6360/1](https://sigaa.unb.br/sigaa/public/curso/curriculo.jsf?lc=pt_BR&id=414924), realizando um filtro para retirar as obrigatórias e as que não eram específicas, como, por exemplo, Atividades Complementares. Na página de [Optativas]() é possível encontrar as disciplinas filtradas e descritas de acordo com atributos julgados importantes (nome, palavras chaves, área de conhecimento, carga horária e ementa).
+As disciplinas foram listadas e analisadas com base na [Estrutura Curricular 6360/1](https://sigaa.unb.br/sigaa/public/curso/curriculo.jsf?lc=pt_BR&id=414924), realizando um filtro para retirar as obrigatórias e as que não eram específicas, como, por exemplo, Atividades Complementares. Na página de [Optativas](https://unbparadigmas2023-1-turma02.github.io/2023.1_G2_Logico_OptaSoftware/optativas/) é possível encontrar as disciplinas filtradas e descritas de acordo com atributos julgados importantes (nome, palavras chaves, área de conhecimento, carga horária e ementa).
 
 A partir disso, então, o sistema desenvolvido possui os seguintes filtros para as disciplinas:
 
-- filtro1
-- filtro2
+- Carga horária
+- Área de conhecimento
+- Palavra presente na ementa
 
-Além disso, há, também, uma funcionalidade de geração de relatório para aqueles que desejarem.
+Além disso, há, também, uma funcionalidade de geração de relatório para aqueles que desejarem informações mais completas da ementa.
 
 ## Screenshots
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+
 
 ## Instalação 
 **Linguagens**: Prolog<br>
-**Tecnologias**: xxxxxx<br>
+**Tecnologias**: XPCE (interface)<br>
 
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
-Gifs animados e outras ilustrações são bem-vindos!
+## Pré-requisitos
+- SWI-Prolog instalado
 
 ## Uso 
-Explique como usar seu projeto.
-Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
-Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software.
+```bash
+git clone https://github.com/UnBParadigmas2023-1-Turma02/20231_G2_Logico_OptaSoftware
+```
+```bash
+swipl
+
+[main].
+```
+
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
-Procure: 
-(i) Introduzir o projeto;
-(ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
-(iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
-(iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
-OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min
+
 
 ## Participações
 
@@ -64,24 +62,31 @@ TEMPO: +/- 15min
 | Cibele Freitas Goudinho - @CibeleG | Desenvolvimento dos [filtros](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/filtros.pl) | Excelente |
 | Guilherme Brito Vilas Boas - @dev-brito | Desenvolvimento da tabela de Resultados da Busca e Integração com os filtros, além de contribuir ativamente com considerações nas reuniões que fizemos. | Excelente |
 | Irwin Schmitt - @irwinschmitt | - | - |
-| Júlia Farias Sousa - @julisous | Desenvolvimento da geração do [relatório](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/relatorios/app/relatorio.pl) | Excelente |
+| Júlia Farias Sousa - @julisous | Desenvolvimento do gerador de relatório [relatório] (https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/relatorios/app/relatorio.pl),  atualização do Github Pages e README| Boa|
 | Lameque Fernandes Azevedo - @LamequeFernandes | Desenvolvimento da [base de conhecimento](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/materias.pl) e o diagrama de matérias.<br>Construção da documentação do Github Pages, requisitos e reuniões | Boa |
 | Leonardo Milomes Vitoriano - @leonardomilv3 | Desenvolvimento dos [filtros](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/filtros.pl) | Boa |
-| Thaís Rebouças de Araujo - @Thais-ra | Desenvolvimento da geração do [relatório](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/relatorio.pl) | Excelente |
-| Victor Hugo Oliveira Leão - @victorleaoo | Desenvolvimento da [base de conhecimento](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/materias.pl) e o diagrama de matérias.<br>Construção da documentação do Github Pages e README. | Boa |
+| Thaís Rebouças de Araujo - @Thais-ra |Desenvolvimento do gerador de relatório [relatório] (https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/relatorios/app/relatorio.pl) | Boa|
+| Victor Hugo Oliveira Leão - @victorleaoo | Desenvolvimento da [base de conhecimento](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/materias.pl) e o diagrama de [Optativas](https://unbparadigmas2023-1-turma02.github.io/2023.1_G2_Logico_OptaSoftware/optativas/).<br>Construção da documentação do Github Pages e README. | Boa |
 
 ## Outros 
 (i) Lições Aprendidas:
-* Aplicação de forma bem intuitiva da declaração de uma estrutura em Prolog, nesse caso, uma matéria.
+- Realizar modularização de tarefas nem sempre é o melhor caminho;
+- É importante ter abordagens alternativas durante o desenvolvimento do projeto;
+- É importante realizar reuniões pré-projeto para elencar os requisitos, assim todos estarão alinhados quanto aos objetivos do projeto.
+
 
 (ii) Percepções:
-* O simples funcionamento do Paradigma Lógico em encontrar "dados" cadastrados em sua base de conhecimento.
+
+- O simples funcionamento do Paradigma Lógico em encontrar "dados" cadastrados em sua base de conhecimento.
+- Partir do caso default para conseguir progredir com os predicados
 
 (iii) Contribuições e Fragilidades:
-* 
 
-(iV) Trabalhos Futuros:
-* 
+- O paradigma é difícil de ser modularizado, sendo necessária a constante integração e comunicação de toda a equipe durante o desenvolvimento do trabalho;
+- O log de erros é de difícil interpretação, portante é necessário estudar bastante não só sobre o paradigma como o Prolog em si;
+- O projeto contribuiu para tornar a forma de pensar da equipe mais lógica, menos orientada a objetos e pensando constantemente de existe um caso default para cada problema.
+
+
 
 ## Fontes
 
