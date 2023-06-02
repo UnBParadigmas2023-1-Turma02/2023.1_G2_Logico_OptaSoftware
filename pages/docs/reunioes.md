@@ -28,3 +28,4 @@ Na reunião do dia 25/05, a equipe debateu sobre a interface da aplicação e re
 | Data       | Versão | Descrição                 | Autor(es)         |
 | :--------: | :----: | :------------------------:| :---------------: |
 | 01/06/2023 |  1.0   | Documentação das reuniões | Lameque Fernandes |
+| 01/06/2023 |  1.1   | Ajuste das tarefas        | Cibele Goudinho   |
