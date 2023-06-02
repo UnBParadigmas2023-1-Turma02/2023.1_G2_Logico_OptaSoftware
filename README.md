@@ -64,7 +64,7 @@ swipl
 | -- | -- | -- |
 | Cibele Freitas Goudinho - @CibeleG | Desenvolvimento dos [filtros](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/filtros.pl) | Excelente |
 | Guilherme Brito Vilas Boas - @dev-brito | Desenvolvimento da tabela de Resultados da Busca e Integração com os filtros, além de contribuir ativamente com considerações nas reuniões que fizemos. | Excelente |
-| Irwin Schmitt - @irwinschmitt | - | - |
+| Irwin Schmitt - @irwinschmitt | Protótipo de baixa fidelidade e desenvolvimento das janelas dos filtros: `ui/main_filter_dialog`, `ui/keywords_filter_dialog`, `ui/area_filter_dialog`, `ui/syllabus_filter_dialog` e `ui/workload_filter_dialog`. | Excelente |
 | Júlia Farias Sousa - @julisous | Desenvolvimento do gerador de relatório [relatório] (https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/relatorios/app/relatorio.pl),  atualização do Github Pages e README| Boa|
 | Lameque Fernandes Azevedo - @LamequeFernandes | Desenvolvimento da [base de conhecimento](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/materias.pl) e o diagrama de matérias.<br>Construção da documentação do Github Pages, requisitos e reuniões | Boa |
 | Leonardo Milomes Vitoriano - @leonardomilv3 | Desenvolvimento dos [filtros](https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/main/app/filtros.pl) | Boa |
