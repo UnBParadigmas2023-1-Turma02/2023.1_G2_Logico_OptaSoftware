@@ -71,17 +71,21 @@ TEMPO: +/- 15min
 
 ## Outros 
 (i) Lições Aprendidas:
-
+- Realizar modularização de tarefas nem sempre é o melhor caminho;
+- É importante ter abordagens alternativas durante o desenvolvimento do projeto;
+- É importante realizar reuniões pré-projeto para elencar os requisitos, assim todos estarão alinhados quanto aos objetivos do projeto.
 
 
 (ii) Percepções:
 
 - O simples funcionamento do Paradigma Lógico em encontrar "dados" cadastrados em sua base de conhecimento.
+- Partir do caso default para conseguir progredir com os predicados
 
 (iii) Contribuições e Fragilidades:
 
-**- O paradigma é difícil de ser modularizado, sendo necessária a constante integração e comunicação de toda a equipe durante o desenvolvimento do trabalho**
-**- O log de erros é de difícil interpretação, portante é necessário estudar bastante não só sobre o paradigma como o Prolog em si**
+- O paradigma é difícil de ser modularizado, sendo necessária a constante integração e comunicação de toda a equipe durante o desenvolvimento do trabalho;
+- O log de erros é de difícil interpretação, portante é necessário estudar bastante não só sobre o paradigma como o Prolog em si;
+- O projeto contribuiu para tornar a forma de pensar da equipe mais lógica, menos orientada a objetos e pensando constantemente de existe um caso default para cada problema.
 
 (iV) Trabalhos Futuros:
 
