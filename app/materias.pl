@@ -1,3 +1,5 @@
+:- module(materias, [materia/5]).
+
 % materia(nome, [palavras_chaves], area_conhecimento, horas, ementa).
 
 materia('Computação Básica', ['Resolução de Problemas', 'Matemática', 'Programação', 'Algoritmo', 'Computação'], 'Engenharias', 90, 'Histórico do computador computadores e resolução de problemas estruturas de decisão vetores e matrizes cadeias de caracteres sub-algoritmos: funções e procedimentos estilo de programação particularidades da linguagem pascal.').
