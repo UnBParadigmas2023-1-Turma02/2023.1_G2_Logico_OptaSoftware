@@ -1,5 +1,9 @@
 % Usar base de dados
 :- consult('materias.pl').
+
+% Usar Tabela
+:- consult('ui/table.pl').
+
 % Formatar saída do prolog, remover pergunta, evitar truncamento
 :- set_prolog_flag(toplevel_print_options, [quoted(true), portray(true), max_depth(0)]).
 
@@ -55,15 +59,9 @@ tem_todas_palavras_ementa([Palavra|Resto], String) :-
     tem_todas_palavras_ementa(Resto, String).
 
 % Função auxiliar para imprimir a lista de matérias
-imprimir_materias([]).
-imprimir_materias([(Materia, ListaPalavras, Area, Duracao, Ementa)|Resto]) :-
-    write(Materia), write(', '),
-    write(ListaPalavras), write(', '),
-    write(Area), write(', '),
-    write(Duracao), write(', '),
-    write(Ementa), nl,
-    imprimir_materias(Resto).
-
+imprimir_materias(Materias) :-
+    make_table(Materias).
+    
 % Função auxiliar para verificar se a sub_string está na string dentro da lista de palavras_chaves
 palavra_chave_em_string(Palavra, ListaPalavras) :-
     member(String, ListaPalavras),
