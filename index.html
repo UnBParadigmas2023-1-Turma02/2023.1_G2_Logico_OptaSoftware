@@ -262,6 +262,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#pre-requisitos" class="md-nav__link">
+    Pré-requisitos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#uso" class="md-nav__link">
     Uso
   </a>
@@ -402,6 +409,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#pre-requisitos" class="md-nav__link">
+    Pré-requisitos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#uso" class="md-nav__link">
     Uso
   </a>
@@ -508,31 +522,30 @@
 <p>As disciplinas foram listadas e analisadas com base na <a href="https://sigaa.unb.br/sigaa/public/curso/curriculo.jsf?lc=pt_BR&amp;id=414924">Estrutura Curricular 6360/1</a>, realizando um filtro para retirar as obrigatórias e as que não eram específicas, como, por exemplo, Atividades Complementares. Na página de <a href="https://unbparadigmas2023-1-turma02.github.io/2023.1_G2_Logico_OptaSoftware/optativas/">Optativas</a> é possível encontrar as disciplinas filtradas e descritas de acordo com atributos julgados importantes (nome, palavras chaves, área de conhecimento, carga horária e ementa).</p>
 <p>A partir disso, então, o sistema desenvolvido possui os seguintes filtros para as disciplinas:</p>
 <ul>
-<li>filtro1</li>
-<li>filtro2</li>
+<li>Carga horária</li>
+<li>Área de conhecimento</li>
+<li>Palavra presente na ementa</li>
 </ul>
-<p>Além disso, há, também, uma funcionalidade de geração de relatório para aqueles que desejarem.</p>
+<p>Além disso, há, também, uma funcionalidade de geração de relatório para aqueles que desejarem informações mais completas da ementa.</p>
 <h2 id="screenshots">Screenshots</h2>
-<p>Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.</p>
 <h2 id="instalacao">Instalação</h2>
 <p><strong>Linguagens</strong>: Prolog<br>
-<strong>Tecnologias</strong>: xxxxxx<br></p>
-<p>Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
-Gifs animados e outras ilustrações são bem-vindos!</p>
+<strong>Tecnologias</strong>: XPCE (interface)<br></p>
+<h2 id="pre-requisitos">Pré-requisitos</h2>
+<ul>
+<li>SWI-Prolog instalado</li>
+</ul>
 <h2 id="uso">Uso</h2>
-<p>Explique como usar seu projeto.
-Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
-Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software.</p>
+<pre><code class="language-bash">git clone https://github.com/UnBParadigmas2023-1-Turma02/20231_G2_Logico_OptaSoftware
+</code></pre>
+<pre><code class="language-bash">cd app
+
+swipl
+</code></pre>
+<pre><code class="language-bash">[main].
+ main.
+</code></pre>
 <h2 id="video">Vídeo</h2>
-<p>Adicione 1 ou mais vídeos com a execução do projeto.
-Procure: 
-(i) Introduzir o projeto;
-(ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
-(iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
-(iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
-OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min</p>
 <h2 id="participacoes">Participações</h2>
 <table>
 <thead>
@@ -560,8 +573,8 @@ TEMPO: +/- 15min</p>
 </tr>
 <tr>
 <td>Júlia Farias Sousa - @julisous</td>
-<td>Desenvolvimento do gerador de relatório [relatório] (https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/relatorios/app/relatorio.pl)</td>
-<td>-</td>
+<td>Desenvolvimento do gerador de relatório [relatório] (https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/relatorios/app/relatorio.pl),  atualização do Github Pages e README</td>
+<td>Boa</td>
 </tr>
 <tr>
 <td>Lameque Fernandes Azevedo - @LamequeFernandes</td>
@@ -575,8 +588,8 @@ TEMPO: +/- 15min</p>
 </tr>
 <tr>
 <td>Thaís Rebouças de Araujo - @Thais-ra</td>
-<td>-</td>
-<td>-</td>
+<td>Desenvolvimento do gerador de relatório [relatório] (https://github.com/UnBParadigmas2023-1-Turma02/2023.1_G2_Logico_OptaSoftware/blob/relatorios/app/relatorio.pl)</td>
+<td>Boa</td>
 </tr>
 <tr>
 <td>Victor Hugo Oliveira Leão - @victorleaoo</td>
@@ -600,10 +613,6 @@ TEMPO: +/- 15min</p>
 <li>O paradigma é difícil de ser modularizado, sendo necessária a constante integração e comunicação de toda a equipe durante o desenvolvimento do trabalho;</li>
 <li>O log de erros é de difícil interpretação, portante é necessário estudar bastante não só sobre o paradigma como o Prolog em si;</li>
 <li>O projeto contribuiu para tornar a forma de pensar da equipe mais lógica, menos orientada a objetos e pensando constantemente de existe um caso default para cada problema.</li>
-</ul>
-<p>(iV) Trabalhos Futuros:</p>
-<ul>
-<li>Adicionar</li>
 </ul>
 <h2 id="fontes">Fontes</h2>
 <blockquote>
